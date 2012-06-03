@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+var ${1:viewName} = Ti.UI.createView({
+	top: ${2:TOP},
+	left: ${3:LEFT},
+	height: ${4:HEIGHT},
+	width: ${5:WIDTH},
+	backgroundColor: ${6:BACKGROUNDCOLOR},
+	backgroundImage: ${7:BACKGROUNDIMAGE}	
+});
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tiview</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
