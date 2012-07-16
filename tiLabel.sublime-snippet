@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+var ${1:labelName} = Ti.UI.createLabel({
+	top: ${2:TOP} ,
+	left: ${3:LEFT} ,
+	height: ${4:HEIGHT} ,
+	width: ${5:WIDTH},
+	font:{
+		fontSize: ${6:FONTSIZE},
+		fontWeight: ${7:FONTWEIGHT},
+		fontFamily: ${8:FONTFAMILY}
+	},
+	text: ${9:TEXT}
+});
+${10:PARENT}.add(${1:labelName});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tilabel</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
